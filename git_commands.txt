@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "message"
+git status
+git log
+git add remote origin SERVER_REPOSITORY_URL 	//if you already made a repository on your end, link with the one on the server side
+git push -u origin master 			//next step after the one above, i think
+git clone SERVER_REPOSITORY_URL			//if you want to clone a repository already on the server
+
